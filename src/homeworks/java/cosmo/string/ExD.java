@@ -11,5 +11,10 @@ public class ExD {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
 
+        char[] chars = input.toCharArray();
+
+        for (char i : chars) {
+            System.out.println(i);
+        }
     }
 }

@@ -12,5 +12,6 @@ public class ExF {
     public static void main(String[] args) {
         String phoneNumber = "89806567890";
 
+        System.out.println(phoneNumber.replaceFirst("8", "+7"));
     }
 }
